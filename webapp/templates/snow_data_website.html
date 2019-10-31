@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS for layout</title>
+    <script>var api_port = {{ api_port }};</script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='snow_data_css.css') }}"/>
+    <script type ="text/javascript" src ="{{ url_for('static', filename='snow_data_javascript.js') }}" defer></script>
+
+    <div class ="home_opener">
+        <p>home</p>
+    </div>
+
+    <div class ="sidebar">
+        <a href ="/jackson_hole">Jackson Hole</a>
+        <a href = "/telluride">Telluride</a>
+        <a href = "/snowbird">Snowbird</a>
+        <a href = "/whistler">Whistler</a>
+    </div>
+
+
+
+</head>
+
+
+
+<body>
+    <div class = "jackson_hole_box">
+        <h4>JACKSON HOLE</h4>
+        <p>historic base depth average for today's date:
+            <span id="jackson_hole_average_base_depth"></span> in.
+        </p>
+        <p>historic snowfall average for today's date:
+            <span id="jackson_hole_average_snowfall"></span> in.
+        </p>
+
+    </div>
+
+    <div class = "telluride_box">
+        <h4>TELLURIDE</h4>
+        <p>historic base depth average for today's date:
+            <span id="telluride_average_base_depth"></span> in.
+        </p>
+        <p>historic snowfall average for today's date:
+            <span id="telluride_average_snowfall"></span> in.
+        </p>
+    </div>
+    
+    <div class = "snowbird_box">
+        <h4>SNOWBIRD</h4>
+        <p>historic base depth average for today's date:
+            <span id="snowbird_average_base_depth"></span> in.
+        </p>
+        <p>historic snowfall average for today's date:
+            <span id="snowbird_average_snowfall"></span> in.
+        </p>
+    </div>
+    <div class = "whistler_box">
+        <h4>WHISTLER</h4>
+        <p>historic base depth average for today's date:
+            <span id="whistler_average_base_depth"></span> in.
+        </p>
+        <p>historic snowfall average for today's date:
+            <span id="whistler_average_snowfall"></span> in.
+        </p>
+    </div>    
+
+
+
+    <div class = "info_box">
+        <p>
+        This site contains methods for accessing historic snowfall and base depth data 
+        for four well-known ski resorts.
+        </p> 
+
+</body>
+
+</html>

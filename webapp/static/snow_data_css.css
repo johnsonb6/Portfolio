@@ -1,0 +1,220 @@
+body {
+    margin-left: 420px;
+    padding: 10px;
+
+}
+h4 {
+    color: #4682B4;
+    font-family: "Lucida Sans Unicode", Helvetica, "Arial Unicode MS", Arial serif;
+    font-size: 15px;
+
+}
+h5 {
+    color: #4682B4;
+    font-family: "Lucida Sans Unicode", Helvetica, "Arial Unicode MS", Arial serif;
+
+}
+
+h2{
+    color: #154360;
+    font-family: "Lucida Sans Unicode", Helvetica, "Arial Unicode MS", Arial serif;
+
+}
+.info_box {
+    background: #87CEEB;
+    width: 225px;
+    position: fixed;
+    z-index: 1;
+    top: 400px;
+    left: 10px;
+    background: #87CEEB;
+    overflow-x: hidden;
+    padding: 0px 15px;
+}
+.info_box p {
+    color: #154360;
+    font-size: 20px;
+
+}
+.home_opener {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-family: "Lucida Sans Unicode", Helvetica, "Arial Unicode MS", Arial serif;
+    font-size: 4em;
+
+    padding: 10px;
+    color: #FFAF33;
+}
+
+.sidebar {
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    top: 175px;
+    left: 10px;
+    background: #87CEEB;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #4682B4;
+    display: block;
+
+}
+.sidebar a:hover {
+    color: #708090;
+}
+
+.jackson_hole_box {
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    background: #87CEEB;
+    padding: 20px;
+    margin: 25px;
+
+}
+.jackson_hole_box a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #4682B4;
+    display: block;
+}
+.jackson_hole_box p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4682B4;
+    display: block;
+}
+span {
+    font-size: 20px;
+}
+.telluride_box {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 776px;
+    top: 150px;
+    background-color: #87CEEB;
+    padding: 20px;
+    margin: 25px;
+}
+.telluride_box p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4682B4;
+    display: block;
+}
+
+.snowbird_box {
+    position: absolute;
+    left: 300px;
+    top: 470px;
+    background-color: #87CEEB;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    margin: 25px;
+}
+.snowbird_box p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4682B4;
+    display: block;
+}
+.whistler_box {
+    position: absolute;
+    top: 470px;
+    left: 776px;
+    background-color: #87CEEB;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    margin: 25px;
+}
+.whistler_box p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4682B4;
+    display: block;
+}
+.snowfall_rectangle {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    background-color: #87CEEB;
+    width: 700px;
+    height: 250px;
+    padding: 20px;
+    margin: 25px;
+}
+
+.snowfall_rectangle p {
+    color: #4682B4;
+    font-family: "Lucida Sans Unicode", Helvetica, "Arial Unicode MS", Arial serif;
+}
+
+.forecast_rectangle {
+    position: absolute;
+    left: 300px;
+    top: 450px;
+    background-color: #87CEEB;
+    width: 700px;
+    height: 250px;
+    padding: 20px;
+    margin: 25px;
+}
+
+.forecast_rectangle p {
+    color: #4682B4;
+    font-family: "Lucida Sans Unicode", Helvetica, "Arial Unicode MS", Arial serif;
+}
+
+.highest_snowfall_in_year_rectangle {
+    background-color: #87CEEB;
+    position: absolute;
+    left: 300px;
+    top: 750px;
+    width: 700px;
+    height: 160px;
+    padding: 20px;
+    margin: 25px;
+}
+
+.highest_snowfall_in_year_rectangle p {
+    color: #4682B4;
+    font-family: "Lucida Sans Unicode", Helvetica, "Arial Unicode MS", Arial serif;
+    font-size: 16px;
+}
+
+/*
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+*/
+
+
+/*
+#colorbox {
+    width: 100%;
+    height: 20%;
+    float:left;
+    font-family: "Lucida Sans Unicode", Helvetica, "Arial Unicode MS", Arial serif;
+    font-size: 4em;
+    color: white;
+    background-color: #bb2222;
+}
+*/
